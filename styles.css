@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: linear-gradient(to right, #444, #777 90%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 97vw;
+  flex-direction: column;
+}
+p{
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 2em;
+  color: #FFF;
+}
+.unBoton{
+  padding: 10px;
+  margin-top: 5px;
+  outline: 1px solid black;
+  border: none;
+  background: #12EAFF71;
+  transition: 1.2s ease-in-out;
+}
+.unBoton:hover{
+  background: #33FBFF81;
+}
+.unBoton:active{
+  background: #02DAFA71;
+}
